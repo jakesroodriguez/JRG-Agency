@@ -764,7 +764,7 @@ import React, { useEffect, useRef, useState } from 'react';
         id: 1,
         title: 'Gure Trena',
         desc: lang === 'es' ? 'Bocadillos, pintxos y café del de verdad. El bar de toda la vida en Urretxu.' : lang === 'en' ? 'Sandwiches, pintxos and real coffee. The traditional bar in Urretxu.' : 'Bokadiloak, pintxoak eta benetako kafea. Urretxuko betiko taberna.',
-        image: './portfolio-1.webp',
+        image: '/portfolio-1.webp',
         link: 'https://guretrenaurretxu.com/',
         tech: ['React', 'Vite', 'Tailwind']
       },
@@ -772,7 +772,7 @@ import React, { useEffect, useRef, useState } from 'react';
         id: 2,
         title: 'Urkulu Móviles',
         desc: lang === 'es' ? 'Reparación de móviles, pantallas, baterías y accesorios exclusivos en Urretxu.' : lang === 'en' ? 'Mobile repair, screens, batteries, and exclusive accessories in Urretxu.' : 'Mugikorren konponketa, pantailak, bateriak eta osagarri esklusiboak Urretxun.',
-        image: './portfolio-2.webp',
+        image: '/portfolio-2.webp',
         link: 'https://urkulumovilesurretxu.lovable.app/',
         tech: ['React', 'Vite', 'Tailwind']
       },
@@ -780,7 +780,7 @@ import React, { useEffect, useRef, useState } from 'react';
         id: 3,
         title: 'Korta Taberna',
         desc: lang === 'es' ? 'Cocina de brasa, pintxos y producto de cercanía. Tradición familiar en Zumarraga.' : lang === 'en' ? 'Grilled cuisine, pintxos and local products. Family tradition in Zumarraga.' : 'Eguneroko pintxoak, brasa sukaldaritza eta familia tradizioa Zumarragan.',
-        image: './portfolio-3.webp',
+        image: '/portfolio-3.webp',
         link: 'https://kortataberna.vercel.app/?lang=eu',
         tech: ['HTML5', 'CSS3', 'JavaScript']
       }
@@ -849,7 +849,7 @@ import React, { useEffect, useRef, useState } from 'react';
         const updateFavicon = () => {
           const favicon = document.querySelector('link[rel="icon"]');
           if (favicon) {
-            favicon.href = './favicon.png?v=2';
+            favicon.href = '/favicon.png?v=2';
           }
         };
 
