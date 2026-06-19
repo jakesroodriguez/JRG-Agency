@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <script>
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var lang = params.get('lang');
+      if (lang && ['es', 'en', 'eu'].includes(lang)) {
+        document.documentElement.lang = lang;
+      }
+    })();
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>JRG Studio | Desarrollador Web en el País Vasco</title>
