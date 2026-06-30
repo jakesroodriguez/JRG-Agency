@@ -788,7 +788,7 @@ import React, { useEffect, useRef, useState } from 'react';
         title: 'Urkulu Móviles',
         desc: lang === 'es' ? 'Reparación de móviles, pantallas, baterías y accesorios exclusivos en Urretxu.' : lang === 'en' ? 'Mobile repair, screens, batteries, and exclusive accessories in Urretxu.' : 'Mugikorren konponketa, pantailak, bateriak eta osagarri esklusiboak Urretxun.',
         image: '/portfolio-2.webp',
-        link: 'https://urkulumovilesurretxu.lovable.app/',
+        link: 'https://urkulumovilesurretxu.com/',
         tech: ['React', 'Vite', 'Tailwind']
       },
       {
